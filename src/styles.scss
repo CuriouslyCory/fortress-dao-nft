@@ -1,1 +1,49 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: Montserrat SemiBold;
+    src: url("/assets/fonts/Montserrat-SemiBold.ttf");
+}
+body {
+    background-image: url("/assets/images/static-background.png");
+    font-family: Montserrat SemiBold;
+}
+
+.gradient-overlay {
+    background: linear-gradient(180deg, rgba(84,84,84,0.48783263305322133) 0%, rgba(8,8,8,0.49343487394957986) 100%);
+    backdrop-filter: blur(10px);
+}
+
+.button-outline {
+    border: 3px solid #6b230b;
+    border-radius: 5px;
+    color: #FFF;
+    background-color: none;
+    background: none;
+    padding: 5px 15px;
+}
+
+button {
+    transition: 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.button-solid {
+    border: 3px solid #6b230b;
+    background-color: #6b230b;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: large;
+    padding: 5px 15px;
+}
+
+.button-solid {
+    border: 3px solid #6b230b;
+    background-color: #6b230b;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: large;
+    padding: 5px 15px;
+}
+
+.button-solid:hover {
+    background-color: #7c290e;
+    border: 3px solid #7c290e;
+}
