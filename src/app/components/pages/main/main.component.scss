@@ -1,0 +1,28 @@
+.content-wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: calc(100vh - 128px);
+    align-items: center;
+    flex-direction: column;
+}
+
+.character-window {
+    min-height: 600px;
+    min-width: 300px;
+    border-radius: 10px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.traits {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-section {
+    padding-top: 15px;
+}

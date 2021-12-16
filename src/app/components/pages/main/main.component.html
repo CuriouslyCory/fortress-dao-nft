@@ -1,0 +1,23 @@
+<div class="content-wrapper">
+    <div class="top-section row">
+        <app-gender-selector></app-gender-selector>
+    </div>
+    <div class="middle-section row">
+        <div class="traits traits-left">
+            <app-trait-chooser [trait]="'head'"></app-trait-chooser>
+            <app-trait-chooser [trait]="'body'"></app-trait-chooser>
+            <app-trait-chooser [trait]="'right-arm'"></app-trait-chooser>
+        </div>
+        <div class="character-window gradient-overlay">
+            <app-character-display></app-character-display>
+        </div>
+        <div class="traits traits-right">
+            <app-trait-chooser [trait]="'left-arm'"></app-trait-chooser>
+            <app-trait-chooser [trait]="'legs'"></app-trait-chooser>
+            <app-trait-chooser [trait]="'feet'"></app-trait-chooser>
+        </div>
+    </div>
+    <div class="bottom-section row">
+        <button class="button-solid">Mint</button>
+    </div>
+</div>
