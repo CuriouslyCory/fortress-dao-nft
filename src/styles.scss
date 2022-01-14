@@ -47,3 +47,7 @@ button {
     background-color: #7c290e;
     border: 3px solid #7c290e;
 }
+
+.filter-white{
+    filter: invert(100%) sepia(0%) saturate(662%) hue-rotate(183deg) brightness(97%) contrast(104%);
+}
